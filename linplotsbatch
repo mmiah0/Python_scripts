@@ -1,0 +1,10 @@
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_01_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_05_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_09_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_13_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_17_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_21_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_25_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_29_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_33_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &
+(cd /$HOME/Documents/artie/ew/3story/linear/3st_S_37_30_ew_lin && python /$HOME/Documents/scripts/lindrift.py) &

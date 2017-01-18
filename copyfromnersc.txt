@@ -1,0 +1,21 @@
+scp -r mmiah0@edison.nersc.gov:/global/project/projectdirs/m2545 .
+
+## copy a directory from local to remote
+tar cz /home/mmiah/Documents/GROUND_MOTIONS/DTOP=3.0km_CORRECT/dt02 | ssh mmiah0@edison.nersc.gov tar zxv -C /global/u2/m/mmiah0/gndmotion/data
+
+## If you are already in the directory (e.g. dt02) you want to copy from use the following
+tar cz dt02 | ssh mmiah0@edison.nersc.gov tar zxv -C /global/u2/m/mmiah0/gndmotion/data
+
+## Get a File From Data Transfer Node:
+scp user_name@dtn01.nersc.gov:/remote/path/myfile.txt/local/path
+## For example get a file named com.txt from nersc node to the following local directory
+scp mmiah0@edison.nersc.gov:com.txt /home/mmiah/Documents/mapping
+
+##Send a File to Data Transfer Node:
+scp /local/path/myfile.txt user_name@dtn01.nersc.gov:/remote/path
+
+
+## combine pdf files with ghostscript
+gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=combined.pdf S_07_25/foo.pdf S_07_27/foo.pdf S_07_29/foo.pdf S_09_25/foo.pdf S_09_27/foo.pdf S_09_29/foo.pdf S_11_25/foo.pdf S_11_27/foo.pdf S_11_29/foo.pdf S_13_25/foo.pdf S_13_27/foo.pdf S_13_29/foo.pdf S_15_25/foo.pdf S_15_27/foo.pdf S_15_29/foo.pdf
+
+
