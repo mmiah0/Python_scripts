@@ -1,2 +1,2 @@
 # scripts
-some scripts for running parallel tasks
+some python scripts for analysis and plotting of the results
